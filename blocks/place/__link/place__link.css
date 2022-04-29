@@ -16,6 +16,6 @@
     .place__paragraph {
         grid-column: 1;
         max-width: 100%;
-        grid-row: 3;        
+        grid-row: 3;
     }
 }
