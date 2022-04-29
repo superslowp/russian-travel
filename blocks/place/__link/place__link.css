@@ -1,0 +1,21 @@
+.place__link{
+    margin: 0;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.22 ;
+    text-decoration-line: underline;
+    color: #fff;
+    transition: opacity 0.4s ease-in;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        grid-column: 1;
+        max-width: 100%;
+        grid-row: 3;        
+    }
+}
