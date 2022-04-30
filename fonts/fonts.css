@@ -9,9 +9,18 @@
   
   @font-face {
     font-family: 'Inter';
+    src: url(./Inter/Inter-Bold.woff) format('woff');
+    src: url(./Inter/Inter-Bold.woff2) format('woff2');
+    src: url(./Inter/Inter-Bold.ttf) format('truetype');
+    font-style: bold;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Inter';
     src: url(./Inter/Inter-Black.woff) format('woff');
     src: url(./Inter/Inter-Black.woff2) format('woff2');
     src: url(./Inter/Inter-Black.ttf) format('truetype');
-    font-style: bold;
+    font-style: normal;
     font-weight: 900;
   }
